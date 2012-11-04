@@ -3,6 +3,11 @@ websocket-benchmark
 
 Run concurrent WebSocket clients and measure the roundtrip-time.
 
+```
+npm install
+./bin/websocket-benchmark.js -h 'ws://echo.websocket.org/' -n 1000 -c 10
+```
+
 Arguments
 ---------
 `-h` Host to connect to (e.g. 'ws://10.10.10.10/echo/websocket').
