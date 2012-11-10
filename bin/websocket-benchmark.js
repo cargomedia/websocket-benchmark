@@ -19,7 +19,7 @@ if (concurrency > clients) {
 	throw 'Concurrency is larger than requests';
 }
 
-console.log('Starting ' + clients + ' clients doing ' + roundtripsPerClient + ' roundtrips to `' + host + '`.')
+console.log('Starting ' + clients + ' clients doing ' + roundtripsPerClient + ' roundtrips to `' + host + '`.');
 
 var clientsStarted = 0;
 var clientsFinished = 0;
