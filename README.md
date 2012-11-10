@@ -1,11 +1,16 @@
 websocket-benchmark
 =========
-
 Run concurrent WebSocket clients and measure the roundtrip-time.
+```
+npm install -g websocket-benchmark
+```
 
 ```
-npm install
-./bin/websocket-benchmark.js -h 'ws://echo.websocket.org/' -n 1000 -c 10
+$ websocket-benchmark -h 'ws://echo.websocket.org/' -n 1000 -c 10
+Starting 1000 clients doing 5 roundtrips to `ws://echo.websocket.org/`.
+Min: 882ms
+Mean: 905ms
+Max: 921ms
 ```
 
 Arguments

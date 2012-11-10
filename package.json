@@ -1,22 +1,19 @@
 {
 	"name": "websocket-benchmark",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Websocket Benchmark",
-	"bin": {
-		"websocket-benchmark": "./bin/websocket-benchmark.js"
-	},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": "",
-	"keywords": [
-		"websocket", "benchmark"
-	],
-	"author": "Cargomedia",
-	"license": "BSD",
 	"dependencies": {
 		"optimist": "0.3.4",
 		"underscore": "1.4.2",
 		"ws": "0.4.22"
-	}
+	},
+	"bin": {
+		"websocket-benchmark": "./bin/websocket-benchmark.js"
+	},
+	"keywords": [
+		"websocket", "benchmark"
+	],
+	"author": "Cargomedia",
+	"homepage": "https://github.com/cargomedia/websocket-benchmark",
+	"license": "BSD"
 }
