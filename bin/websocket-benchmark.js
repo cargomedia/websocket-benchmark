@@ -3,6 +3,11 @@ var optimist = require('optimist');
 var _ = require('underscore');
 var WebSocket = require('ws');
 
+optimist.describe('h', 'Host to connect to (e.g. "ws://10.10.10.10/echo/websocket")');
+optimist.describe('n', 'Number of clients to create');
+optimist.describe('c', 'Number of concurrent clients');
+optimist.describe('r', 'Number of roundtrips to the server each client should do');
+optimist.describe('s', 'Size of the message to send');
 optimist.usage('Usage: $0 -h [host] -n [clients] -c [concurrency] -r [roundtrips] -s [size]').demand(['h']);
 var argv = optimist.default('n', 1000).default('c', 1).default('s', 30).default('r', 5).argv;
 var host = argv.h;
