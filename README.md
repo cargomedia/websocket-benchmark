@@ -1,5 +1,7 @@
 # websocket-benchmark
 Run concurrent WebSocket clients and measure the roundtrip-time.
+
+The server is expected to copy every message it receives back to the client!
 ```
 npm install -g websocket-benchmark
 ```
