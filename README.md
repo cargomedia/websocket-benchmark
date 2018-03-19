@@ -1,3 +1,8 @@
+UNMAINTAINED
+============
+This project is not maintained anymore.
+If you want to take over contact us at tech@cargomedia.ch.
+
 # websocket-benchmark
 Run concurrent WebSocket clients and measure the roundtrip-time.
 
